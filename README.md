@@ -73,7 +73,6 @@ push_user("LGN01", 1)
 
 ## 🚫 Limitations
 
-- Pas de connexion Internet sur le réseau Indus → build Docker offline requis
 - Utilisation locale uniquement (non accessible depuis l'externe)
 
 ## 💼 Auteurs
