@@ -78,11 +78,9 @@ push_user("LGN01", 1)
 
 ## 💼 Auteurs
 
-Projet réalisé dans le cadre de la formation *Automatisme Industriel & Digitalisation* pour le client **UIMM / NEE Electronics**.
+Projet réalisé dans le cadre de la formation *Expert en numerique et informatique* pour le client **UIMM / NEE Electronics**.
 
 **Développeur principal** : Nino marquet (Groupe C)
 
 ---
 
-⚠️ Ce projet est destiné à un usage pédagogique en environnement industriel sécurisé.  
-Pour tout usage critique, adaptez la sécurité et l'architecture selon les normes IT/OT.
