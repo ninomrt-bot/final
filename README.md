@@ -80,7 +80,7 @@ push_user("LGN01", 1)
 
 Projet réalisé dans le cadre de la formation *Automatisme Industriel & Digitalisation* pour le client **UIMM / NEE Electronics**.
 
-**Développeur principal** : Timothée (Groupe C)
+**Développeur principal** : Nino marquet (Groupe C)
 
 ---
 
