@@ -2,7 +2,7 @@
 
 Ce dépôt contient le code et l'infrastructure logicielle du **poste de pilotage** du projet **NEE-202504**, développé pour interconnecter les réseaux **OT (automates industriels)** et **IT (serveur ERP Odoo)**.
 
-## 📆 Objectifs du projet
+##  Objectifs du projet
 
 - Lire dynamiquement les **Ordres de Fabrication (OF)** depuis Odoo (via XML-RPC).
 - Afficher les OF dans une **IHM en Tkinter**.
@@ -15,7 +15,7 @@ Ce dépôt contient le code et l'infrastructure logicielle du **poste de pilotag
   - Rôle utilisateur (opérateur / maintenance)
 - Restreindre l'accès à certaines pages en fonction du badge RFID scanné.
 
-## ⚙️ Architecture
+##  Architecture
 
 ```text
 [Odoo ERP] (IT) 
@@ -27,7 +27,7 @@ Ce dépôt contient le code et l'infrastructure logicielle du **poste de pilotag
                   [Automate WAGO] (OT)
 ```
 
-## 🛠️ Technologies
+##  Technologies
 
 - **Python 3.11**
 - **Flask** (API REST interne)
@@ -36,7 +36,7 @@ Ce dépôt contient le code et l'infrastructure logicielle du **poste de pilotag
 - **xmlrpc.client** (connexion Odoo)
 - **Docker / Portainer** pour déploiement en réseau isolé
 
-## 📂 Structure du projet
+##  Structure du projet
 
 ```
 mon_projet/
@@ -52,7 +52,7 @@ mon_projet/
 ├── docker-compose.yml   # Stack de déploiement
 ```
 
-## ⚡ Exemples OPC UA
+##  Exemples OPC UA
 
 ```python
 # Envoi de l'OF
@@ -65,17 +65,17 @@ pulse_bit("LGN01", NODE_VALIDATE_P4)
 push_user("LGN01", 1)
 ```
 
-## 🏠 Environnement réseau
+##  Environnement réseau
 
 - **Raspberry Pi** connecté en Wi-Fi au réseau **IT** pour accéder à Odoo
 - **OPC UA** sur le réseau **Indus (OT)** pour écrire vers les automates
 - Accès aux deux via route statique ou conteneur inter-réseau
 
-## 🚫 Limitations
+##  Limitations
 
 - Utilisation locale uniquement (non accessible depuis l'externe)
 
-## 💼 Auteurs
+##  Auteurs
 
 Projet réalisé dans le cadre de la formation *Expert en numerique et informatique* pour le client **UIMM / NEE Electronics**.
 
